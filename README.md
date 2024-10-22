@@ -1,3 +1,5 @@
----
+**----------Under Development--------**
 
-# KHAN-MD
+>    Made with ❤️ Coming Soon 🔜
+
+>    JawadTechX - > On YouTube 
