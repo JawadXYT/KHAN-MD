@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("*KHAN-MD Started Successfully ✅*\n* Mode : *${mode}*\n* Platform : *${os.platform()}*\n* Prefix : *[ ${pref} ]*\n* Version : *1.3.0*\n*Iғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇ ʙᴏᴛ ɢɪᴠᴇ ᴀ sᴛᴀʀ \ud83c\udf1f*"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `*KHAN-MD Started Successfully ✅*\n* Mode : *${mode}*\n* Platform : *${os.platform()}*\n* Prefix : *[ ${pref} ]*\n* Version : *1.3.0*\n*Iғ ʏᴏᴜ ʟɪᴋᴇ ᴛʜᴇ ʙᴏᴛ ɢɪᴠᴇ ᴀ sᴛᴀʀ \ud83c\udf1f*` });
+                    console.log(chalk.green("*Successfully Connected KHAN-MD ✅*"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `*Successfully Connected KHAN-MD ✅*` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
